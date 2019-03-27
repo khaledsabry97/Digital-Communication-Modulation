@@ -9,16 +9,51 @@ The raised-cosine filter is a filter frequently used for pulse-shaping in digita
 
 ![alt text](https://github.com/khaledsabry97/Digital-Communication-Modulation/blob/master/Raised-cosine_filter.png)
 
-## How to run it
+## How to reproduce the figures (run it)
 1. open matlab
 2. write in the terminal ==> bertool
 3. go to the monto carlo tab
-4. set the range of Eb/No
-5. select the file to simulate that
-6. push Run
+4. set the range of Eb/No [-10:10]
+5. set ber variable name : ber
+6. select the file to simulate that
+7. push Run
 
 ## Expected Output 
 two windows (scatter plot at the recevier and transimitter) + BER performance figure
 
+
+
+
+## Design
+
+![alt text](https://github.com/khaledsabry97/Digital-Communication-Modulation/blob/master/BPSK/BPSK%20DESIGN.JPG)
+
+## Scatter plot before noise:
+
+![alt text](https://github.com/khaledsabry97/Digital-Communication-Modulation/blob/master/BPSK/BPSK%20Scatter%20Plot%20At%20transimitter.JPG)
+
+## Scatter plot After noise:
+
+![alt text](https://github.com/khaledsabry97/Digital-Communication-Modulation/blob/master/BPSK/BPSK%20Scatter%20Plot%20At%20Receiver.JPG)
+
+## BER Figure
+
+![alt text](https://github.com/khaledsabry97/Digital-Communication-Modulation/blob/master/BPSK/ber.JPG)
+
+# With Raised Cosine
+
+![alt text](https://github.com/khaledsabry97/Digital-Communication-Modulation/blob/master/BPSK/BPSK%20DESIGN%20with%20raised%20cosine.JPG)
+
+## Scatter plot before noise:
+
+![alt text](https://github.com/khaledsabry97/Digital-Communication-Modulation/blob/master/BPSK/BPSK%20Scatter%20Plot%20At%20transimitter%20with%20raised%20cosine.JPG)
+
+## Scatter plot After noise:
+
+![alt text](https://github.com/khaledsabry97/Digital-Communication-Modulation/blob/master/BPSK/BPSK%20Scatter%20Plot%20At%20Receiver%20with%20raised%20cosine.JPG)
+
+## BER Figure
+
+![alt text](https://github.com/khaledsabry97/Digital-Communication-Modulation/blob/master/BPSK/ber%20with%20rasied%20cosine.JPG)
 
 

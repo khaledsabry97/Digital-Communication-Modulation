@@ -1,8 +1,8 @@
-# BPSK
-Binary Phase Shift Keying (BPSK)
+# FSK
+Frequency Shift Keying
 
 ## Explanation
-is a two phase modulation scheme, where the 0’s and 1’s in a binary message are represented by two different phase states in the carrier signal: θ=0∘ for binary 1 and θ=180∘ for binary 0.
+FSK is a frequency modulation scheme in which digital information is transmitted through discrete frequency changes of a carrier signal.
 
 ### Adding Raised Cosine Filter
 The raised-cosine filter is a filter frequently used for pulse-shaping in digital modulation due to its ability to minimise intersymbol interference (ISI), this is an implementation of a low-pass Nyquist filter, i.e., one that has the property of vestigial symmetry. 
@@ -26,34 +26,34 @@ two windows (scatter plot at the recevier and transimitter) + BER performance fi
 
 ## Design
 
-![alt text](https://github.com/khaledsabry97/Digital-Communication-Modulation/blob/master/BPSK/BPSK%20DESIGN.JPG)
+![alt text](https://github.com/khaledsabry97/Digital-Communication-Modulation/blob/master/FSK/fsk%20design.JPG)
 
 ## Scatter plot before noise:
 
-![alt text](https://github.com/khaledsabry97/Digital-Communication-Modulation/blob/master/BPSK/BPSK%20Scatter%20Plot%20At%20transimitter.JPG)
+![alt text](https://github.com/khaledsabry97/Digital-Communication-Modulation/blob/master/FSK/FSK%20Scatter%20Plot%20At%20Transmitter.JPG)
 
 ## Scatter plot After noise:
 
-![alt text](https://github.com/khaledsabry97/Digital-Communication-Modulation/blob/master/BPSK/BPSK%20Scatter%20Plot%20At%20Receiver.JPG)
+![alt text](https://github.com/khaledsabry97/Digital-Communication-Modulation/blob/master/FSK/FSK%20Scatter%20Plot%20At%20Receiver.JPG)
 
 ## BER Figure
 
-![alt text](https://github.com/khaledsabry97/Digital-Communication-Modulation/blob/master/BPSK/ber.JPG)
+![alt text](https://github.com/khaledsabry97/Digital-Communication-Modulation/blob/master/FSK/ber.JPG)
 
 # With Raised Cosine
 
-![alt text](https://github.com/khaledsabry97/Digital-Communication-Modulation/blob/master/BPSK/BPSK%20DESIGN%20with%20raised%20cosine.JPG)
+![alt text](https://github.com/khaledsabry97/Digital-Communication-Modulation/blob/master/FSK/fsk%20design%20with%20raised%20cosine.JPG)
 
 ## Scatter plot before noise:
 
-![alt text](https://github.com/khaledsabry97/Digital-Communication-Modulation/blob/master/BPSK/BPSK%20Scatter%20Plot%20At%20transimitter%20with%20raised%20cosine.JPG)
+![alt text](https://github.com/khaledsabry97/Digital-Communication-Modulation/blob/master/FSK/FSK%20Scatter%20Plot%20At%20Transmitter%20with%20raised%20cosine.JPG)
 
 ## Scatter plot After noise:
 
-![alt text](https://github.com/khaledsabry97/Digital-Communication-Modulation/blob/master/BPSK/BPSK%20Scatter%20Plot%20At%20Receiver%20with%20raised%20cosine.JPG)
+![alt text](https://github.com/khaledsabry97/Digital-Communication-Modulation/blob/master/FSK/FSK%20Scatter%20Plot%20At%20Receiver%20with%20raised%20cosine.JPG)
 
 ## BER Figure
 
-![alt text](https://github.com/khaledsabry97/Digital-Communication-Modulation/blob/master/BPSK/ber%20with%20rasied%20cosine.JPG)
+![alt text](https://github.com/khaledsabry97/Digital-Communication-Modulation/blob/master/FSK/ber%20with%20raised%20cosine.JPG)
 
 

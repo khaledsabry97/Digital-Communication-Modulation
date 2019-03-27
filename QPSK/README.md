@@ -1,5 +1,5 @@
-# BPSK
-Quad Phase Shift Keying (BPSK)
+# QPSK
+Quad Phase Shift Keying 
 
 ## Explanation
 QPSK is a form of Phase Shift Keying in which two bits are modulated at once, selecting one of four possible carrier phase shifts (0, 90, 180, or 270 degrees). QPSK allows the signal to carry twice as much information as ordinary PSK using the same bandwidth
@@ -42,7 +42,7 @@ two windows (scatter plot at the recevier and transimitter) + BER performance fi
 
 # With Raised Cosine
 
-![alt text](https://github.com/khaledsabry97/Digital-Communication-Modulation/blob/master/BPSK/BPSK%20DESIGN%20with%20raised%20cosine.JPG)
+![alt text](https://github.com/khaledsabry97/Digital-Communication-Modulation/blob/master/QPSK/QPSK%20with%20raised%20cosine%20Design.JPG)
 
 ## Scatter plot before noise:
 
